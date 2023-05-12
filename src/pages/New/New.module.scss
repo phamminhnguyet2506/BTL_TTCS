@@ -1,0 +1,124 @@
+.wrapper {
+    width: 100%;
+    padding-top: var(--header-height);
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(
+        0deg,
+        rgba(42, 38, 35, 0.6) 100%,
+        rgba(255, 255, 255, 0) 100%
+    );
+}
+
+.header {
+    width: 100%;
+    height: var(--header-height);
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    border-top: var(--border-1);
+
+    p {
+        font-size: 0.8rem;
+        font-weight: 400;
+        color: #fff;
+    }
+}
+
+.footer {
+    width: 100%;
+    border-bottom: var(--border-1);
+
+    .footer-content {
+        width: 50%;
+        padding-left: 4.6875vw;
+        padding-top: 2.5rem;
+        padding-bottom: 5vw;
+
+        p {
+            font-size: 1rem;
+            letter-spacing: 0.025rem;
+            line-height: 1.5rem;
+            font-weight: 300;
+            color: #fff;
+        }
+    }
+}
+
+.video-wrapper {
+    width: 100%;
+
+    video {
+        width: 100%;
+    }
+}
+
+.cottage {
+    width: 100%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+    .cottage-intro {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 5%;
+
+        h2 {
+            padding: 5% 0;
+            font-size: 1.5rem;
+            letter-spacing: 0;
+            line-height: 1.75rem;
+            font-weight: 500;
+        }
+
+        p {
+            width: 40%;
+            font-size: 1rem;
+            letter-spacing: 0.025rem;
+            line-height: 1.75rem;
+            font-weight: 300;
+        }
+    }
+
+    .cottage-infor-1,
+    .cottage-infor-2 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+
+        img {
+            width: 40%;
+        }
+
+        .content {
+            margin: 10%;
+
+            p {
+                font-size: 1rem;
+                letter-spacing: 0.025rem;
+                line-height: 1.75rem;
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+.cottage-infor-1 {
+    img {
+        padding-left: 5%;
+    }
+}
+
+.cottage-infor-2 {
+    img {
+        padding-right: 5%;
+        margin-top: -15%;
+    }
+}
